@@ -3,9 +3,6 @@ name: Clean property images
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'images/**'
 
 permissions:
   contents: write
